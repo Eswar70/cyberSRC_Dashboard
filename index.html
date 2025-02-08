@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2 class="logo">blueBox</h2>
+            <div class="profile">
+                <img src="http://www.venmond.com/demo/vendroid/img/avatar/big.jpg" alt="User">
+                <div>
+                    <h3>Angelina Doe</h3>
+                    <p>Project Manager</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active">Dashboard</li>
+                    <li>UI Elements</li>
+                    <li>Components</li>
+                    <li>Forms Stuff</li>
+                    <li>Data Table</li>
+                    <li>Icons</li>
+                    <li>Sample Page</li>
+                    <li>Extra</li>
+                </ul>
+            </nav>
+            <button class="add-project">Add Project</button>
+        </aside>
+
+        <main class="dashboard">
+            <header>
+                <h2>Dashboard</h2>
+                <input type="text" placeholder="Search Project">
+                <div class="user-info">
+                    <img src="http://www.venmond.com/demo/vendroid/img/avatar/big.jpg" alt="User">
+                    <span>Angelina Doe</span>
+                </div>
+            </header>
+
+            <section class="stats">
+                <div class="card purple">
+                    <h4>Stock Total</h4>
+                    <h2>$150,000</h2>
+                    <p>Increased by 60%</p>
+                </div>
+                <div class="card blue">
+                    <h4>Total Profit</h4>
+                    <h2>$25,000</h2>
+                    <p>Increased by 30%</p>
+                </div>
+                <div class="card orange">
+                    <h4>Unique Visitors</h4>
+                    <h2>250,000</h2>
+                    <p>Increased by 80%</p>
+                </div>
+            </section>
+
+            <section class="table-section">
+                <h3>Standard Table Design</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>User Type</th>
+                            <th>Joined</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mike Brandt</td>
+                            <td>mikeb@email.com</td>
+                            <td>Admin</td>
+                            <td>25 Apr, 2018</td>
+                            <td><button class="status pending">Pending</button></td>
+                        </tr>
+                        <tr>
+                            <td>Andrew Strauss</td>
+                            <td>info@yourmail.com</td>
+                            <td>Editor</td>
+                            <td>25 Apr, 2018</td>
+                            <td><button class="status approved">Approved</button></td>
+                        </tr>
+                        <tr>
+                            <td>Ross Hopeman</td>
+                            <td>rossh@email.com</td>
+                            <td>Subscriber</td>
+                            <td>25 Apr, 2018</td>
+                            <td><button class="status approved">Approved</button></td>
+                        </tr>
+                        <tr>
+                            <td>Mike Hussy</td>
+                            <td>mikehussy@email.com</td>
+                            <td>Admin</td>
+                            <td>25 Apr, 2018</td>
+                            <td><button class="status rejected">Rejected</button></td>
+                        </tr>
+                        <tr>
+                            <td>Kevin Petersen</td>
+                            <td>kpetersen@email.com</td>
+                            <td>Admin</td>
+                            <td>25 Apr, 2018</td>
+                            <td><button class="status pending">Pending</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
